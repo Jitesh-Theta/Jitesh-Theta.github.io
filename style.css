@@ -33,7 +33,7 @@ body {
     transition: all 0.3s ease-in-out;
     flex: 1;
     margin: 0 10px;
-    height: 528px;
+    height: 622px;
 }
 
 #wheelCanvas {
@@ -54,6 +54,12 @@ body {
     cursor: pointer;
     transition: background 0.3s ease, transform 0.3s ease;
     outline: none;
+    margin-top: 15px;
+}
+
+#spinButton
+{
+    margin-top: 40px;
 }
 
 /* Input container styling */
@@ -124,4 +130,3 @@ h2{
   margin-top: -6px;
   margin-bottom: 8px;
 }
-
